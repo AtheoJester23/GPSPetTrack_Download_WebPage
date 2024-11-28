@@ -1,0 +1,72 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.theHeader{
+    background-image: url('https://giphy.com/embed/3ohzdR6wnf7xX8xrUI');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.theTitle{
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    /* font-weight: bold; */
+    user-select: none; /* Disables text selection */
+    -webkit-user-select: none; /* For WebKit browsers like Chrome, Safari */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For older versions of Internet Explorer */
+}
+
+hr{
+    margin-top: 0px;
+}
+
+.theGIF{
+    background-image: image();
+    pointer-events: none;
+    user-select: none; /* Disables text selection */
+    -webkit-user-select: none; /* For WebKit browsers like Chrome, Safari */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For older versions of Internet Explorer */
+}
+
+.titleIcon{
+    width: auto;
+    height: 40px;
+}
+
+.description{
+    width: 200px;
+}
+
+.downloadSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.downloadButton{
+    background-color: #6378ca;
+    color: #FFF2F2;
+    padding: 10px 27px 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 10px 7px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s, box-shadow 0.25s;
+    transform: translateY(-7px);
+}
+
+.downloadButton:hover{
+    transform: translateY(0%);
+    box-shadow: none;
+    background-color: #869ddd;
+    color: white;
+}
