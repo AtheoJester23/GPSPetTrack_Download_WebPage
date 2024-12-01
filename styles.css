@@ -126,12 +126,21 @@ hr{
 }
 
 .fetTextNImg{
+    margin-top: 30px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .featImg1{
     width: auto;
     height: 150px;
+}
+
+.feature2{
+    background-color: #757575;
+    padding: 15px;
+    border-radius: 20px;
 }
