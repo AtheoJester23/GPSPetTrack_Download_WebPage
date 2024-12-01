@@ -2,6 +2,13 @@
 
 body{
     font-family: "Montserrat", sans-serif;
+    background-color: #efeeec;
+    padding: 25px 0px 25px 0px;
+}
+
+.welcomeText{
+    width: 70%;
+    margin-top: 20px;
 }
 
 .theHeader{
@@ -25,6 +32,8 @@ body{
 
 hr{
     margin-top: 0px;
+    margin: 0 auto;
+    width: 75%;
 }
 
 .theGIF{
@@ -42,7 +51,8 @@ hr{
 }
 
 .description{
-    width: 200px;
+    display: flex;
+    justify-content: center;
 }
 
 .downloadSection{
@@ -50,6 +60,8 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 80px;
+    padding-bottom: 40px;
 }
 
 .downloadButton{
@@ -69,4 +81,57 @@ hr{
     box-shadow: none;
     background-color: #869ddd;
     color: white;
+}
+
+.downloadButton:active{
+    cursor: default;
+}
+
+.display1Container{
+    margin-top: 20px;
+    position: relative;
+    transform: translateY(2%);
+    transition: transform 0.55s;
+}
+
+.thePhone{
+    width: auto;
+    height: 500px;
+}
+
+.display1Container:hover{
+    transform: translateY(0);
+}
+
+.appLogo{
+    position: absolute;
+    width: auto;
+    height: 200px;
+    bottom: -30px;
+    right: -20px;
+    border: solid;
+    border-color: rgb(155, 155, 155);
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+.feature1{
+    background-color: #F0F0F0;
+    /* border-radius: 15px; */
+    padding: 15px;
+}
+
+.featText1{
+    width: 30%;
+}
+
+.fetTextNImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featImg1{
+    width: auto;
+    height: 150px;
 }
