@@ -2,7 +2,7 @@
 
 ## 📓 About  
 
-This is the official repository of the download page of our pet tracker application for our capstone/research project.
+ This is the official repository of the download page of our pet tracker application for our capstone/research project.
 
 
 # GPSPetTrack_Download_WebPage
