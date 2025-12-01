@@ -2,10 +2,9 @@
 
 ## 📓 About  
 
- This is the official repository of the download page of our pet tracker application for our capstone/research project.
+ This repository contains the official download page for GPSPetTrack, a pet-tracking application developed as part of our Capstone/Research Project. The page serves as the central hub for downloading the app, accessing the user guide, and exploring its core features.
 
+ Built with HTML, CSS, JavaScript, and Bootstrap, the site is designed to provide a clean, responsive, and user-friendly experience for pet owners looking for a reliable way to monitor and locate their pets in real time.
 
-# GPSPetTrack_Download_WebPage
- An app developed for our Capstone/Research Project
-
+# GPSPetTrack — Download Page
 Official Link: http://www.pettrackerofficial.xyz/
